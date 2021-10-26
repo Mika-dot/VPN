@@ -25,236 +25,136 @@
     text-decoration: blink; /*убрать подчеркивание*/
   }
 
-.Catalog_Header {
-font-style: normal; /*стиль*/
-font-weight: normal; /*жирность */
-font-size: 16px; /*размер текста*/
-line-height: 19px; /*интервал */
-text-align: center;  /* center left right    auto    Выровнять текст*/
-color: var(--main-color-4F5665); /*цвет*/
+.ButtonsInTheHeader {
+	font-style: normal; /*стиль*/
+	font-weight: normal; /*жирность */
+	font-size: 16px; /*размер текста*/
+	line-height: 19px; /*интервал */
+	text-align: center;  /* center left right    auto    Выровнять текст*/
+	color: var(--main-color-4F5665); /*цвет*/
+
+	max-height: 150px;
+	max-width: 50px;
+	min-height: 20px;
+	min-width: 20px;
+	position: -webkit-sticky;
+	top: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+
 }
-.Want {
-font-style: normal; /*стиль*/
-font-weight: 500; /*жирность */
-font-size: 50px; /*размер текста*/
-line-height: 70px; /*интервал */
-text-align: center;  /* center left right    auto    Выровнять текст*/
-color: var(--main-color-0B132A); /*цвет*/
+.SectionHeading {
+ font-style: normal; /*стиль*/
+ font-weight: 500; /*жирность */
+ font-size: 35px; /*размер текста*/
+ line-height: 50px; /*интервал */
+ text-align: center;  /* center left right    auto    Выровнять текст*/
+ color: var(--main-color-0B132A); /*цвет*/
 }
-.Provide {
-font-style: normal; /*стиль*/
-font-weight: normal; /*жирность */
-font-size: 16px; /*размер текста*/
-line-height: 30px; /*интервал */
-text-align: center;  /* center left right    auto    Выровнять текст*/
-color: var(--main-color-4F5665); /*цвет*/
+
+.TextUnderTheHeading {
+ font-style: normal; /*стиль*/
+ font-weight: normal; /*жирность */
+ font-size: 16px; /*размер текста*/
+ line-height: 30px; /*интервал */
+ text-align: center;  /* center left right    auto    Выровнять текст*/
+ color: var(--main-color-4F5665); /*цвет*/
 }
-.number {
+
+.QualityFigures {
   font-style: normal; /*стиль*/
   font-weight: bold; /*жирность */
   font-size: 25px; /*размер текста*/
   line-height: 30px; /*интервал */
   text-align: center;  /* center left right    auto    Выровнять текст*/
   color: var(--main-color-0B132A); /*цвет*/
+}
+.QualityText {
+  font-style: normal; /*стиль*/
+  font-weight: normal; /*жирность */
+  font-size: 20px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: center;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-4F5665); /*цвет*/
+}
+.ServiceFunctions {
+  font-style: normal; /*стиль*/
+  font-weight: normal; /*жирность */
+  font-size: 14px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: center;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-4F5665); /*цвет*/
+}
+
+.PrizeName {
+  font-style: normal; /*стиль*/
+  font-weight: 500; /*жирность */
+  font-size: 18px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: center;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-0B132A); /*цвет*/
+}
+.GiftButtonName {
+  font-style: normal; /*стиль*/
+  font-weight: 500; /*жирность */
+  font-size: 25px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: center;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-0B132A); /*цвет*/
+}
+.name {
+  font-style: normal; /*стиль*/
+  font-weight: 500; /*жирность */
+  font-size: 18px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: center;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-0B132A); /*цвет*/
+}
+.place {
+  font-style: normal; /*стиль*/
+  font-weight: normal; /*жирность */
+  font-size: 14px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: center;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-4F5665); /*цвет*/
+}
+.grade {
+  font-style: normal; /*стиль*/
+  font-weight: normal; /*жирность */
+  font-size: 16px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: center;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-0B132A); /*цвет*/
+}
+
+.LaslesVPN_is {
+  font-style: normal; /*стиль*/
+  font-weight: normal; /*жирность */
+  font-size: 16px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: center;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-4F5665); /*цвет*/
+}
+.mail {
+  font-style: normal; /*стиль*/
+  font-weight: 500; /*жирность */
+  font-size: 16px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: center;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-AFB5C0); /*цвет*/
+}
+.floor {
+  font-style: normal; /*стиль*/
+  font-weight: normal; /*жирность */
+  font-size: 16px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: center;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-4F5665); /*цвет*/
   }
-  .digit_test {
-    font-style: normal; /*стиль*/
-    font-weight: normal; /*жирность */
-    font-size: 20px; /*размер текста*/
-    line-height: 30px; /*интервал */
-    text-align: center;  /* center left right    auto    Выровнять текст*/
-    color: var(--main-color-4F5665); /*цвет*/
-    }
-    .We {
-      font-style: normal; /*стиль*/
-      font-weight: 500; /*жирность */
-      font-size: 35px; /*размер текста*/
-      line-height: 50px; /*интервал */
-      text-align: center;  /* center left right    auto    Выровнять текст*/
-      color: var(--main-color-0B132A); /*цвет*/
-      }
- .You_can {
-        font-style: normal; /*стиль*/
-        font-weight: normal; /*жирность */
-        font-size: 16; /*размер текста*/
-        line-height: 30; /*интервал */
-        text-align: center;  /* center left right    auto    Выровнять текст*/
-        color: var(--main-color-4F5665); /*цвет*/
-        }
-        .table_1 {
-          font-style: normal; /*стиль*/
-          font-weight: normal; /*жирность */
-          font-size: 14px; /*размер текста*/
-          line-height: 30px; /*интервал */
-          text-align: center;  /* center left right    auto    Выровнять текст*/
-          color: var(--main-color-4F5665); /*цвет*/
-          }
-          .Choose {
-            font-style: normal; /*стиль*/
-            font-weight: 500; /*жирность */
-            font-size: 35px; /*размер текста*/
-            line-height: 50px; /*интервал */
-            text-align: center;  /* center left right    auto    Выровнять текст*/
-            color: var(--main-color-0B132A); /*цвет*/
-            }
-            .Let_s_choose {
-              font-style: normal; /*стиль*/
-              font-weight: normal; /*жирность */
-              font-size: 16px; /*размер текста*/
-              line-height: 16px; /*интервал */
-              text-align: center;  /* center left right    auto    Выровнять текст*/
-              color: var(--main-color-4F5665); /*цвет*/
-              }
-              .name_of_tab_2 {
-                font-style: normal; /*стиль*/
-                font-weight: 500; /*жирность */
-                font-size: 18px; /*размер текста*/
-                line-height: 30px; /*интервал */
-                text-align: center;  /* center left right    auto    Выровнять текст*/
-                color: var(--main-color-0B132A); /*цвет*/
-                }
-                .table_2 {
-                  font-style: normal; /*стиль*/
-                  font-weight: normal; /*жирность */
-                  font-size: 14px; /*размер текста*/
-                  line-height: 30px; /*интервал */
-                  text-align: center;  /* center left right    auto    Выровнять текст*/
-                  color: var(--main-color-0B132A); /*цвет*/
-                  }
-                  .Free {
-                    font-style: normal; /*стиль*/
-                    font-weight: 500; /*жирность */
-                    font-size: 25px; /*размер текста*/
-                    line-height: 30px; /*интервал */
-                    text-align: center;  /* center left right    auto    Выровнять текст*/
-                    color: var(--main-color-0B132A); /*цвет*/
-                    }
-                    .Huge {
-                      font-style: normal; /*стиль*/
-                      font-weight: 500; /*жирность */
-                      font-size: 35px; /*размер текста*/
-                      line-height: 50px; /*интервал */
-                      text-align: center;  /* center left right    auto    Выровнять текст*/
-                      color: var(--main-color-0B132A); /*цвет*/
-                      }
-                      .See {
-                        font-style: normal; /*стиль*/
-                        font-weight: normal; /*жирность */
-                        font-size: 16px; /*размер текста*/
-                        line-height: 30px; /*интервал */
-                        text-align: center;  /* center left right    auto    Выровнять текст*/
-                        color: var(--main-color-0B132A); /*цвет*/
-                        }
-                        .Trusted {
-                          font-style: normal; /*стиль*/
-                          font-weight: 500; /*жирность */
-                          font-size: 35px; /*размер текста*/
-                          line-height: 50px; /*интервал */
-                          text-align: center;  /* center left right    auto    Выровнять текст*/
-                          color: var(--main-color-0B132A); /*цвет*/
-                          }
-                          .These {
-                            font-style: normal; /*стиль*/
-                            font-weight: normal; /*жирность */
-                            font-size: 16px; /*размер текста*/
-                            line-height: 30px; /*интервал */
-                            text-align: center;  /* center left right    auto    Выровнять текст*/
-                            color: var(--main-color-4F5665); /*цвет*/
-                            }
-                            .name {
-                              font-style: normal; /*стиль*/
-                              font-weight: 500; /*жирность */
-                              font-size: 18px; /*размер текста*/
-                              line-height: 30px; /*интервал */
-                              text-align: center;  /* center left right    auto    Выровнять текст*/
-                              color: var(--main-color-0B132A); /*цвет*/
-                              }
-                              .place {
-                                font-style: normal; /*стиль*/
-                                font-weight: normal; /*жирность */
-                                font-size: 14px; /*размер текста*/
-                                line-height: 30px; /*интервал */
-                                text-align: center;  /* center left right    auto    Выровнять текст*/
-                                color: var(--main-color-4F5665); /*цвет*/
-                                }
-                                .grade {
-                                  font-style: normal; /*стиль*/
-                                  font-weight: normal; /*жирность */
-                                  font-size: 16px; /*размер текста*/
-                                  line-height: 30px; /*интервал */
-                                  text-align: center;  /* center left right    auto    Выровнять текст*/
-                                  color: var(--main-color-0B132A); /*цвет*/
-                                  }
-                                  .Wow {
-                                    font-style: normal; /*стиль*/
-                                    font-weight: normal; /*жирность */
-                                    font-size: 16px; /*размер текста*/
-                                    line-height: 30px; /*интервал */
-                                    text-align: center;  /* center left right    auto    Выровнять текст*/
-                                    color: var(--main-color-0B132A); /*цвет*/
-                                    }
-                                    .Subscribe {
-                                      font-style: normal; /*стиль*/
-                                      font-weight: 500; /*жирность */
-                                      font-size: 35px; /*размер текста*/
-                                      line-height: 45px; /*интервал */
-                                      text-align: center;  /* center left right    auto    Выровнять текст*/
-                                      color: var(--main-color-4F5665); /*цвет*/
-                                      }
-                                      .Lets_subscribe {
-                                        font-style: normal; /*стиль*/
-                                        font-weight: normal; /*жирность */
-                                        font-size: 16px; /*размер текста*/
-                                        line-height: 30px; /*интервал */
-                                        text-align: center;  /* center left right    auto    Выровнять текст*/
-                                        color: var(--main-color-4F5665); /*цвет*/
-                                        }
-                                        .LaslesVPN {
-                                          font-style: normal; /*стиль*/
-                                          font-weight: 500; /*жирность */
-                                          font-size: 20px; /*размер текста*/
-                                          line-height: 24px; /*интервал */
-                                          text-align: center;  /* center left right    auto    Выровнять текст*/
-                                          color: var(--main-color-0B132A); /*цвет*/
-                                          }
-                                          .LaslesVPN_is {
-                                            font-style: normal; /*стиль*/
-                                            font-weight: normal; /*жирность */
-                                            font-size: 16px; /*размер текста*/
-                                            line-height: 30px; /*интервал */
-                                            text-align: center;  /* center left right    auto    Выровнять текст*/
-                                            color: var(--main-color-4F5665); /*цвет*/
-                                            }
-                                            .©2020LaslesVPN {
-                                              font-style: normal; /*стиль*/
-                                              font-weight: 500; /*жирность */
-                                              font-size: 16px; /*размер текста*/
-                                              line-height: 30px; /*интервал */
-                                              text-align: center;  /* center left right    auto    Выровнять текст*/
-                                              color: var(--main-color-AFB5C0); /*цвет*/
-                                              }
-                                              .floor {
-                                                font-style: normal; /*стиль*/
-                                                font-weight: normal; /*жирность */
-                                                font-size: 16px; /*размер текста*/
-                                                line-height: 30px; /*интервал */
-                                                text-align: center;  /* center left right    auto    Выровнять текст*/
-                                                color: var(--main-color-4F5665); /*цвет*/
-                                                }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* Действие */
 
 
 .Sign_In {
@@ -265,29 +165,31 @@ color: var(--main-color-4F5665); /*цвет*/
   color:  var(--main-color-F53838); 
 }
 
-.Sign_Up {
+.Sign_Up_White {
   background-color: var(--main-color-ffffff); 
   text-decoration: none; 
   border: solid var(--main-color-F53838);   
   border-radius: 30px;  
   color:  var(--main-color-F53838); 
 }
-.Get_Started {
+
+.ButtonRed {
   background-color: var(--main-color-F53838); 
   text-decoration: none; 
   border: solid var(--main-color-F53838);  
   border-radius: 30px; 
   color:  var(--main-color-ffffff); 
 }
-.Catalog_Header {
-  background-color: var(--main-color-ffffff); /*цвет кнопки*/
-  text-decoration: none; /*убрать подчеркивания ссылки*/
-  border: solid var(--main-color-ffffff);   /*рамку с цветом*/
-  border-radius: 30px;  /*радиус скругления*/
-  color:  var(--main-color-0B132A); 
+.Rounding {
+	border-radius: 30px; 
 }
 
 
+/* флексбоксы */
 
-/* border-radius border
-/* классы можно загружать через пробел class="бла бла бла"
+.centered {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
