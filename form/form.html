@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML5</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesForm.css">
+    <link rel="stylesheet" href="../stile/stile.css">
+    <link rel="stylesheet" href="../stile/reseter.css">
+    <title>Document</title>
+</head>
+
+<body class="Body">
+    <header>
+        <div class="header1">
+            <div class="header2">
+                <img src="../img/Standard_Collection_27.svg"
+                    alt="Site logo (onion - a reference to onion encryption via VPN)">
+                <h3 class="LaslesVPN_is">LaslesVPN</h3>
+            </div>
+            <div class="header2">
+                <a href="../index.html" class="ButtonsInTheHeader">About</a>
+                <a href="" class="ButtonsInTheHeader">Features</a>
+                <a href="" class="ButtonsInTheHeader">Pricing</a>
+                <a href="" class="ButtonsInTheHeader">Testimonials</a>
+                <a href="" class="ButtonsInTheHeader">Help</a>
+            </div>
+            <div class="header2">
+                <a href="" class="Sign_In">Sign In</a>
+                <a href="" class="Sign_Up_White">Sign Up</a>
+            </div>
+        </div>
+    </header>
+    <div class="Connect">
+        <form method="POST" action="https://httpbin.org/post" enctype="multipart/form-data">
+
+            <div class="context">
+                <div class="registration">
+                    <input type="hidden" name="user_id" value="7">
+
+                    <div class="form-group">
+                        <label for="fio" class="place">Full name</label>
+                        <input type="text" id="fio" name="fio" placeholder="Full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="place">Email</label>
+                        <input type="email" id="email" name="email" placeholder="akimperes@gmail.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <p class="place">How did you hear about us?</p>
+
+                        <input type="radio" name="source" id="advrtising" value="advrtising" checked>
+                        <label for="advrtising" class="place">Advertising</label>
+
+                        <input type="radio" name="source" id="friends" value="friends">
+                        <label for="friends" class="place">Friends</label>
+
+                        <input type="radio" name="source" id="friends" value="friends">
+                        <label for="friends" class="place">By chance</label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="msg" class="place">Message text</label>
+                        <textarea name="msg" id="msg" cols="30" rows="2" class="place">Your wishes</textarea>
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <label for="category" class="place">Category of appeal</label>
+                        <select name="categoty" id="category" multiple>
+                            <option value="proposal" class="place">Proposal of collaboration</option>
+                            <option value="feedback" selected class="place">Review</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group1">
+                        <input type="checkbox" name="agreement" id="agreement" value="yes">
+                        <label for="agreement" class="place">I agree to the processing of personal data.</label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="attachment" class="place">The attachment</label>
+                        <input type="file" name="attachment" id="attachment">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="send">
+                    </div>
+                </div>
+                <div class="logo">
+                    <img src="img/Big_brother.png" alt="glory to the soldiers of the invisible front">
+                </div>
+            </div>
+        </form>
+
+        <footer class="BasementAll">
+            <div class="BasementDown1 ">
+                <img src="../img/Standard_Collection_27.svg" alt="Company `s logo">
+                <a class="LaslesVPN_is">LaslesVPN</a>
+                <a class="TextUnderTheHeading">LaslesVPN is a private virtual network that has unique features and has
+                    high
+                    security.</a>
+                <div class="HoneycombNetwork">
+                    <div class="Facebook.">
+                        <a href=""><img src="../img/Facebook.svg" alt="we are in social networks Facebook"></a>
+                    </div>
+                    <div class="Twitter">
+                        <a href=""><img src="../img/Twitter.svg" alt="we are in social networks Twitter"></a>
+                    </div>
+                    <div class="Instagram">
+                        <a href=""><img src="../img/Instagram.svg" alt="we are in social networks Instagram"></a>
+                    </div>
+                </div>
+                <a class="mail">©2020LaslesVPN</a>
+            </div>
+            <div class="BasementDown">
+                <ul class="table_3">
+                    <li><a class="PrizeName">Product</a></li>
+                    <li><a class="floor">Download</a></li>
+                    <li><a class="floor">Pricing</a></li>
+                    <li><a class="floor">Locations</a></li>
+                    <li><a class="floor">Server</a></li>
+                    <li><a class="floor">Countries</a></li>
+                    <li><a class="floor">Blog</a></li>
+                </ul>
+            </div>
+            <div class="BasementDown">
+                <ul class="table_3">
+                    <li><a class="PrizeName">Engage</a></li>
+                    <li><a class="floor">LaslesVPN ? </a></li>
+                    <li><a class="floor">FAQ</a></li>
+                    <li><a class="floor">Tutorials</a></li>
+                    <li><a class="floor">About Us</a></li>
+                    <li><a class="floor">Privacy Policy</a></li>
+                    <li><a class="floor">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="BasementDown">
+                <ul class="table_3">
+                    <li><a class="PrizeName">Earn Money</a></li>
+                    <li><a class="floor">Affiliate</a></li>
+                    <li><a class="floor">Become Partner</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

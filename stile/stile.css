@@ -7,6 +7,7 @@
     --main-color-F53838: #F53838;
     --main-color-ffffff: #ffffff;
     --main-color-AFB5C0: #AFB5C0;
+    --main-color-F8F8F8: rgba(248, 248, 248, 1);
   }
 
     .Body {
@@ -25,40 +26,267 @@
     text-decoration: blink; /*убрать подчеркивание*/
   }
 
-.ButtonsInTheHeader {
+.header1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+.header2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.InformationPicture{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin: 50px;
+
+}
+.InformationHeader{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 20px;
+  width: 50%;
+}
+.InformationHeader img {
+  width: 100%;
+}
+.ServiceAdvantages{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+}
+.ProsOfTheBlocksService{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  width: 25%;
+}
+.ProsOfTheBlocksServiceInformation{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.SectionHeading_1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+}
+.Services{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+  height: 100%;
+}
+.ServicesDown{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  border : 2px solid var(--main-color-AFB5C0);
+  width: 30%;
+  min-width: 100px;
+  height: 470px;   /* height: 100%; */
+  border-radius: 25px;
+}
+.CustomersReviews2{
+  border : 2px solid var(--main-color-F53838);
+}
+.ServicesDownSize{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 40%;
+}
+.ServicesDownSize img{
+  height: 70%;
+}
+.fastVPNnetwork_1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+}
+.fastVPNnetwork_2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.Clients{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+}
+.Clientsinfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Reviews{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+  
+}
+.CustomersReviews{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  border : 2px solid var(--main-color-AFB5C0);
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+}
+
+.UserRating{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.NemeClient{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.RewindButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+.Listing{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.Subscriptions{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+  background-color: var(--main-color-ffffff);
+  border-radius: 25px;
+}
+.SubscriptionsSubscribe{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.BasementAll{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+  background-color: var(--main-color-F8F8F8);
+}
+.BasementDown{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+}
+.BasementDown1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 5%;
+}
+.HoneycombNetwork{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+/*стили*/
+.table_1{
+  list-style: none;
+  list-style-image: url('img/Group_1120.png');
+}
+.table_2{
+  list-style: none;
+  list-style-image: url('img/Group_1120.png');
+}
+.table_3{
+  list-style: none;
+}
+ul {
+  list-style-image: url('img/Group_1120.png');
+}
+
+
+.SectionHeading {
+  font-style: normal; /*стиль*/
+  font-weight: 500; /*жирность */
+  font-size: 35px; /*размер текста*/
+  line-height: 50px; /*интервал */
+  /* text-align: center;  center left right    auto    Выровнять текст */
+  text-align: left;
+  color: var(--main-color-0B132A); /*цвет*/
+ }
+ .SectionHeading_2 {
+   margin: 20px 0;
+ }
+ .TextUnderTheHeading {
+  font-style: normal; /*стиль*/
+  font-weight: normal; /*жирность */
+  font-size: 16px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: left;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-4F5665); /*цвет*/
+ }
+ .ButtonsInTheHeader {
 	font-style: normal; /*стиль*/
 	font-weight: normal; /*жирность */
 	font-size: 16px; /*размер текста*/
 	line-height: 19px; /*интервал */
 	text-align: center;  /* center left right    auto    Выровнять текст*/
 	color: var(--main-color-4F5665); /*цвет*/
-
-	max-height: 150px;
-	max-width: 50px;
-	min-height: 20px;
-	min-width: 20px;
-	position: -webkit-sticky;
-	top: 20px;
-	padding: 20px;
-	box-sizing: border-box;
-
-}
-.SectionHeading {
- font-style: normal; /*стиль*/
- font-weight: 500; /*жирность */
- font-size: 35px; /*размер текста*/
- line-height: 50px; /*интервал */
- text-align: center;  /* center left right    auto    Выровнять текст*/
- color: var(--main-color-0B132A); /*цвет*/
-}
-
-.TextUnderTheHeading {
- font-style: normal; /*стиль*/
- font-weight: normal; /*жирность */
- font-size: 16px; /*размер текста*/
- line-height: 30px; /*интервал */
- text-align: center;  /* center left right    auto    Выровнять текст*/
- color: var(--main-color-4F5665); /*цвет*/
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 20px;
 }
 
 .QualityFigures {
@@ -123,7 +351,7 @@
   font-weight: normal; /*жирность */
   font-size: 16px; /*размер текста*/
   line-height: 30px; /*интервал */
-  text-align: center;  /* center left right    auto    Выровнять текст*/
+  text-align: left;  /* center left right    auto    Выровнять текст*/
   color: var(--main-color-0B132A); /*цвет*/
 }
 
@@ -132,7 +360,7 @@
   font-weight: normal; /*жирность */
   font-size: 16px; /*размер текста*/
   line-height: 30px; /*интервал */
-  text-align: center;  /* center left right    auto    Выровнять текст*/
+  text-align: left;  /* center left right    auto    Выровнять текст*/
   color: var(--main-color-4F5665); /*цвет*/
 }
 .mail {
@@ -153,43 +381,30 @@
   }
 
 
-
-/* Действие */
-
-
+/*кнопки*/
 .Sign_In {
   background-color: var(--main-color-ffffff); /*цвет кнопки*/
   text-decoration: none; /*убрать подчеркивания ссылки*/
-  border: solid var(--main-color-ffffff);   /*рамку с цветом*/
+  border: 1px solid var(--main-color-ffffff);   /*рамку с цветом*/
   border-radius: 30px;  /*радиус скругления*/
   color:  var(--main-color-F53838); 
+  padding: 10px 30px; 
 }
 
 .Sign_Up_White {
   background-color: var(--main-color-ffffff); 
   text-decoration: none; 
-  border: solid var(--main-color-F53838);   
+  border: 1px solid var(--main-color-F53838);   
   border-radius: 30px;  
   color:  var(--main-color-F53838); 
+  padding: 10px 30px;
 }
 
 .ButtonRed {
   background-color: var(--main-color-F53838); 
   text-decoration: none; 
-  border: solid var(--main-color-F53838);  
+  border: 1px solid var(--main-color-F53838);  
   border-radius: 30px; 
   color:  var(--main-color-ffffff); 
+  padding: 10px 30px;
 }
-.Rounding {
-	border-radius: 30px; 
-}
-
-
-/* флексбоксы */
-
-.centered {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
