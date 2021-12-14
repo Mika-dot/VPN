@@ -7,6 +7,7 @@
     --main-color-F53838: #F53838;
     --main-color-ffffff: #ffffff;
     --main-color-AFB5C0: #AFB5C0;
+    --main-color-fafafa: #fafafa;
     --main-color-F8F8F8: rgba(248, 248, 248, 1);
   }
 
@@ -31,21 +32,24 @@
   justify-content: space-between;
   align-items: center;
   margin: 50px;
+  flex-wrap: wrap;
 }
 .header2{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
-
+.InformationHeader img{
+  width: 100%;
+}
 .InformationPicture{
   display: flex;
   flex-direction: row;
   /* justify-content: space-around; */
   align-items: center;
   margin: 50px;
-
 }
 .InformationHeader{
   display: flex;
@@ -54,9 +58,6 @@
   align-items: flex-start;
   margin: 20px;
   width: 50%;
-}
-.InformationHeader img {
-  width: 100%;
 }
 .ServiceAdvantages{
   display: flex;
@@ -87,13 +88,13 @@
   margin: 50px;
 }
 .Services{
-
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   margin: 50px;
   height: 100%;
+  flex-wrap: wrap;
 }
 .ServicesDown{
   display: flex;
@@ -104,7 +105,7 @@
   border : 2px solid var(--main-color-AFB5C0);
   width: 30%;
   min-width: 100px;
-  height: 470px;   /* height: 100%; */
+  height: 600px;   /* height: 100%; */
   border-radius: 25px;
 }
 .CustomersReviews2{
@@ -113,7 +114,7 @@
 .ServicesDownSize{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   height: 40%;
 }
@@ -126,6 +127,9 @@
   justify-content: space-around;
   align-items: center;
   margin: 50px;
+}
+.fastVPNnetwork_1 img{
+  width: 120%;
 }
 .fastVPNnetwork_2{
   display: flex;
@@ -150,10 +154,10 @@
 .Reviews{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  margin: 50px;
-  
+  margin: 5%;
+  flex-wrap: wrap;
 }
 .CustomersReviews{
   display: flex;
@@ -220,9 +224,10 @@
 .BasementDown{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   margin: 20px;
+  height: 302px;
 }
 .BasementDown1{
   display: flex;
@@ -237,23 +242,47 @@
   justify-content: space-between;
   align-items: center;
 }
+.down{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.along{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
 
 
 
 /*стили*/
 .table_1{
   list-style: none;
-  list-style-image: url('img/Group_1120.png');
+  list-style-image: url('../img/Group_1120.svg');
+  margin: 0 30px;
 }
 .table_2{
   list-style: none;
-  list-style-image: url('img/Group_1120.png');
+  list-style-image: url('../img/jam_check.svg');
+  margin: 0 30px;
 }
 .table_3{
   list-style: none;
 }
-ul {
-  list-style-image: url('img/Group_1120.png');
+
+
+
+
+.page-background
+{
+    /* width: 100%;
+    height: 100%; */
+    background: #383838; /* Old browsers */
+    background: -webkit-linear-gradient(top, var(--main-color-fafafa) 0%,var(--main-color-ffffff) 100%); 
 }
 
 
@@ -310,7 +339,7 @@ ul {
   font-weight: normal; /*жирность */
   font-size: 14px; /*размер текста*/
   line-height: 30px; /*интервал */
-  text-align: center;  /* center left right    auto    Выровнять текст*/
+  text-align: left;  /* center left right    auto    Выровнять текст*/
   color: var(--main-color-4F5665); /*цвет*/
 }
 
@@ -319,7 +348,7 @@ ul {
   font-weight: 500; /*жирность */
   font-size: 18px; /*размер текста*/
   line-height: 30px; /*интервал */
-  text-align: center;  /* center left right    auto    Выровнять текст*/
+  text-align: left;  /* center left right    auto    Выровнять текст*/
   color: var(--main-color-0B132A); /*цвет*/
 }
 .GiftButtonName {
@@ -343,7 +372,7 @@ ul {
   font-weight: normal; /*жирность */
   font-size: 14px; /*размер текста*/
   line-height: 30px; /*интервал */
-  text-align: center;  /* center left right    auto    Выровнять текст*/
+  text-align: left;  /* center left right    auto    Выровнять текст*/
   color: var(--main-color-4F5665); /*цвет*/
 }
 .grade {
@@ -353,6 +382,7 @@ ul {
   line-height: 30px; /*интервал */
   text-align: left;  /* center left right    auto    Выровнять текст*/
   color: var(--main-color-0B132A); /*цвет*/
+  margin: 0% 5%;
 }
 
 .LaslesVPN_is {
@@ -389,6 +419,7 @@ ul {
   border-radius: 30px;  /*радиус скругления*/
   color:  var(--main-color-F53838); 
   padding: 10px 30px; 
+  white-space: nowrap;
 }
 
 .Sign_Up_White {
@@ -398,6 +429,7 @@ ul {
   border-radius: 30px;  
   color:  var(--main-color-F53838); 
   padding: 10px 30px;
+  white-space: nowrap;
 }
 
 .ButtonRed {
@@ -407,4 +439,5 @@ ul {
   border-radius: 30px; 
   color:  var(--main-color-ffffff); 
   padding: 10px 30px;
+  white-space: nowrap;
 }
