@@ -350,6 +350,7 @@
   line-height: 30px; /*интервал */
   text-align: left;  /* center left right    auto    Выровнять текст*/
   color: var(--main-color-0B132A); /*цвет*/
+  white-space: nowrap;
 }
 .GiftButtonName {
   font-style: normal; /*стиль*/
