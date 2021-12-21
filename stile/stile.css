@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+
+:root {
+    --main-color-4F5665: #4F5665;
+    --main-color-0B132A: #0B132A; /*цвет*/
+    --main-color-F53838: #F53838;
+    --main-color-ffffff: #ffffff;
+    --main-color-AFB5C0: #AFB5C0;
+    --main-color-fafafa: #fafafa;
+    --main-color-F8F8F8: rgba(248, 248, 248, 1);
+  }
+
+    .Body {
+    font-family: 'Rubik', sans-serif; /*шрифт*/
+    overflow-x: hidden;
+    }
+
+    .Rubik_500 { 
+    font-weight: 500; /*размеры букв*/
+   } 
+
+    .Rubik_400 { 
+    font-weight: 400; /*размеры букв*/
+   } 
+
+   .blink {
+    text-decoration: blink; /*убрать подчеркивание*/
+  }
+
+.header1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+.header2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.InformationHeader img{
+  width: 100%;
+}
+.InformationPicture{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin: 50px;
+  /* min-width: 600px; */
+  flex-wrap: wrap;
+}
+.InformationHeader{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 20px;
+  width: 40%;
+}
+.ServiceAdvantages{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+}
+.ProsOfTheBlocksService{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  width: 25%;
+}
+.ProsOfTheBlocksServiceInformation{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.SectionHeading_1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+}
+.Services{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.ServicesDown{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  border : 2px solid var(--main-color-AFB5C0);
+  width: 30%;
+  min-width: 222px;
+  height: 600px;   /* height: 100%; */
+  border-radius: 25px;
+}
+.CustomersReviews2{
+  border : 2px solid var(--main-color-F53838);
+}
+.ServicesDownSize{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+}
+.ServicesDownSize img{
+  height: 70%;
+}
+.fastVPNnetwork_1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+}
+.fastVPNnetwork_1 img{
+  width: 120%;
+}
+.fastVPNnetwork_2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.Clients{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+}
+.Clientsinfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Reviews{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5%;
+  flex-wrap: wrap;
+}
+.CustomersReviews{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  border : 2px solid var(--main-color-AFB5C0);
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+}
+
+.UserRating{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.NemeClient{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.RewindButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+.Listing{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.Subscriptions{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+  background-color: var(--main-color-ffffff);
+  border-radius: 25px;
+}
+.SubscriptionsSubscribe{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.BasementAll{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* margin: 10px; */
+  background-color: var(--main-color-F8F8F8);
+  flex-wrap: wrap;
+}
+.BasementDown{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  height: 302px;
+}
+.BasementDown1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 5%;
+}
+.HoneycombNetwork{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.down{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.along{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+
+
+/*стили*/
+.table_1{
+  list-style: none;
+  list-style-image: url('../img/Group_1120.svg');
+  margin: 0 30px;
+}
+.table_2{
+  list-style: none;
+  list-style-image: url('../img/jam_check.svg');
+  margin: 0 30px;
+}
+.table_3{
+  list-style: none;
+}
+
+
+
+
+.page-background
+{
+    /* width: 100%;
+    height: 100%; */
+    background: #383838; /* Old browsers */
+    background: -webkit-linear-gradient(top, var(--main-color-fafafa) 0%,var(--main-color-ffffff) 100%); 
+}
+
+
+.SectionHeading {
+  font-style: normal; /*стиль*/
+  font-weight: 500; /*жирность */
+  font-size: 35px; /*размер текста*/
+  line-height: 50px; /*интервал */
+  /* text-align: center;  center left right    auto    Выровнять текст */
+  text-align: left;
+  color: var(--main-color-0B132A); /*цвет*/
+ }
+ .SectionHeading_2 {
+   margin: 20px 0;
+ }
+ .TextUnderTheHeading {
+  font-style: normal; /*стиль*/
+  font-weight: normal; /*жирность */
+  font-size: 16px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: left;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-4F5665); /*цвет*/
+ }
+ .ButtonsInTheHeader {
+	font-style: normal; /*стиль*/
+	font-weight: normal; /*жирность */
+	font-size: 16px; /*размер текста*/
+	line-height: 19px; /*интервал */
+	text-align: center;  /* center left right    auto    Выровнять текст*/
+	color: var(--main-color-4F5665); /*цвет*/
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.QualityFigures {
+  font-style: normal; /*стиль*/
+  font-weight: bold; /*жирность */
+  font-size: 25px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: center;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-0B132A); /*цвет*/
+}
+.QualityText {
+  font-style: normal; /*стиль*/
+  font-weight: normal; /*жирность */
+  font-size: 20px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: center;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-4F5665); /*цвет*/
+}
+.ServiceFunctions {
+  font-style: normal; /*стиль*/
+  font-weight: normal; /*жирность */
+  font-size: 14px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: left;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-4F5665); /*цвет*/
+}
+
+.PrizeName {
+  font-style: normal; /*стиль*/
+  font-weight: 500; /*жирность */
+  font-size: 18px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: left;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-0B132A); /*цвет*/
+  white-space: nowrap;
+}
+.GiftButtonName {
+  font-style: normal; /*стиль*/
+  font-weight: 500; /*жирность */
+  font-size: 25px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: center;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-0B132A); /*цвет*/
+}
+.name {
+  font-style: normal; /*стиль*/
+  font-weight: 500; /*жирность */
+  font-size: 18px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: center;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-0B132A); /*цвет*/
+}
+.place {
+  font-style: normal; /*стиль*/
+  font-weight: normal; /*жирность */
+  font-size: 14px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: left;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-4F5665); /*цвет*/
+}
+.grade {
+  font-style: normal; /*стиль*/
+  font-weight: normal; /*жирность */
+  font-size: 16px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: left;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-0B132A); /*цвет*/
+  margin: 0% 5%;
+}
+
+.LaslesVPN_is {
+  font-style: normal; /*стиль*/
+  font-weight: normal; /*жирность */
+  font-size: 16px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: left;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-4F5665); /*цвет*/
+}
+.mail {
+  font-style: normal; /*стиль*/
+  font-weight: 500; /*жирность */
+  font-size: 16px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: center;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-AFB5C0); /*цвет*/
+}
+.floor {
+  font-style: normal; /*стиль*/
+  font-weight: normal; /*жирность */
+  font-size: 16px; /*размер текста*/
+  line-height: 30px; /*интервал */
+  text-align: center;  /* center left right    auto    Выровнять текст*/
+  color: var(--main-color-4F5665); /*цвет*/
+  }
+
+
+/*кнопки*/
+.Sign_In {
+  background-color: var(--main-color-ffffff); /*цвет кнопки*/
+  text-decoration: none; /*убрать подчеркивания ссылки*/
+  border: 1px solid var(--main-color-ffffff);   /*рамку с цветом*/
+  border-radius: 30px;  /*радиус скругления*/
+  color:  var(--main-color-F53838); 
+  padding: 10px 30px; 
+  white-space: nowrap;
+}
+.Sign_In:hover {
+  background: var(--main-color-F53838);  /* Цвет фона под ссылкой */ 
+  color: var(--main-color-ffffff); /* Цвет ссылки */ 
+} 
+
+.Sign_Up_White {
+  background-color: var(--main-color-ffffff); 
+  text-decoration: none; 
+  border: 1px solid var(--main-color-F53838);   
+  border-radius: 30px;  
+  color:  var(--main-color-F53838); 
+  padding: 10px 30px;
+  white-space: nowrap;
+}
+.Sign_Up_White:hover {
+  background: var(--main-color-F53838);  /* Цвет фона под ссылкой */ 
+  color: var(--main-color-ffffff); /* Цвет ссылки */ 
+} 
+
+.ButtonRed {
+  background-color: var(--main-color-F53838); 
+  text-decoration: none; 
+  border: 1px solid var(--main-color-F53838);  
+  border-radius: 30px; 
+  color:  var(--main-color-ffffff); 
+  padding: 10px 30px;
+  white-space: nowrap;
+}
+.ButtonRed:hover {
+  background: var(--main-color-ffffff);  /* Цвет фона под ссылкой */ 
+  color: var(--main-color-F53838); /* Цвет ссылки */ 
+} 
+
+/* @media (min-width:750px)
+{
+    .desktopOnly{
+        display:none;
+    }
+} */
+/* @media screen and (min-width:980px)
+{
+    .desktopOnly{
+        display:inline;
+    }
+} */
+@media(max-width: 720px) {
+  .InformationPicture{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin: 10px;
+    /* min-width: 600px; */
+    flex-wrap: wrap;
+  }
+  .InformationHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 10px;
+    width: 80%;
+  }
+  .InformationHeader img{
+    width: 100%;
+  }
+  .fastVPNnetwork_1 img{
+    width: 200%;
+  }
+}
