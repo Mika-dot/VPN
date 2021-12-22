@@ -20,42 +20,44 @@ the basic requirements were set on the basis of the assignments.
 + ~~set borders and their rounding (border, border-radius)~~
 
 ## 4 lab
-+ ~~Для всех элементов задать расчет через box-sizing: border-box;~~
-+ ~~Задать размеры для элементов (height, width, max-height, max-width, min-height, min-width);~~
-+ ~~Использовать подходящее позиционирование (relative, absolute...);~~
-+ ~~При необходимости использовать z-index.~~
++ ~~For all elements, set the calculation using box-sizing: border-box;~~
++ ~~Set dimensions for elements (height, width, max-height, max-width, min-height, min-width);~~
++ ~~Use appropriate positioning (relative, absolute ...);~~
++ ~~Use z-index if necessary.~~
 
 ## 5 lab
-+ ~~добавить display: flex для расположения flex-элементов согласно макету;~~
-+ ~~использовать необходимые свойства для контейнера и элементов для их выравнивания, расположения и управления размерами;~~
-+ ~~задать цвета разными способами;~~
-+ ~~использовать для задания размеров элементов относительные единицы измерения;~~
-+ ~~задать правильно пути для внешних используемых файлов~~
++ ~~add display: flex to position flex items according to layout;~~
++ ~~cuse the necessary properties for the container and elements for their alignment, position and size control;~~
++ ~~set colors in different ways;~~
++ ~~use relative units of measurement to size elements;~~
++ ~~set the correct paths for externally used files.~~
 
 ## 6 lab
-+ ~~оптимизировать размеры и сжатия изображений;~~
-+ ~~в index.html и style.css из предыдущей работы:~~
-  + ~~использовать корректные теги для изображений (img или figure);~~
-  + ~~использовать подходящие форматы изображений (jpg, png, svg);~~
-  + ~~при необходимости использовать object-fit или object-position;~~
++ ~~optimize the size and compression of images;~~
++ ~~in index.html and style.css from previous work:~~
+  + ~~use correct tags for images (img or figure);~~
+  + ~~use suitable image formats (jpg, png, svg);~~
+  + ~~use object-fit or object-position if necessary;~~
   
 ## 7 lab
-+ ~~в index.html корректно сделать ссылки в соответствии с содержимым и создать и стилизовать формы в соответствии с графическим макетом;~~
-+ ~~создать в папке проекта прошлой лабораторной работы новый документ - form.html;~~
-+ ~~в header index.html должна быть работающая ссылка на form.html;~~
-+ ~~в созданный документ скопировать header и footer из основного документа (index.html);~~
-+ ~~в header form.html должна быть работающая ссылка на index.html;~~
-+ ~~footer “прижать” к нижней части области просмотра;~~
-+ ~~в основной части сайта (main) создать форму регистрации нового пользователя со следующими полями:~~
-  + ~~имя,~~
-  + ~~дата рождения,~~
-  + ~~пол,~~
-  + ~~пароль,~~
-  + ~~email,~~
-  + ~~телефон,~~
-  + ~~удобный интервал для связи (утро, день, вечер, ночь);~~
-+ ~~использовать типы полей соответствующие вводимым данным, добавить placeholder'ы с образцами ввода данных и связанные ярлыки (lable);~~
-+ ~~часть полей сделать обязательными для заполнения;~~
-+ поля формы объединить в две группы: личная информация и контактные данные;
-+ для отправки данных формы создать ее таким образом, чтобы она отправляла данные на netlify (https://docs.netlify.com/forms/setup/):
++ ~~in index.html, correctly make links in accordance with the content and create and style forms in accordance with the graphic layout;
++ ~~create a new document in the project folder of the previous laboratory work - form.html;
++ ~~header index.html must have a working link to form.html;
++ ~~into the created document, copy the header and footer from the main document (index.html);
++ ~~header form.html must have a working link to index.html;
++ ~~footer "squeeze" to the bottom of the viewport;
++ ~~in the main part of the site (main) create a new user registration form with the following fields:
+  + ~~name,
+  + ~~Date of Birth,
+  + ~~floor,
+  + ~~password,
+  + ~~email,
+  + ~~telephone,
+  + ~~convenient interval for communication (morning, afternoon, evening, night);
++ ~~use field types corresponding to the input data, add placeholders with data entry patterns and associated labels;
++ ~~make some of the fields mandatory;
++ ~~combine form fields into two groups: personal information and contact information;
++ ~~to submit form data, create it such that it submits data to netlify (https://docs.netlify.com/forms/setup/):
+  + ~~Add data-netlify attributes with value "true" and name to form;
++ ~~add buttons to the form to send data and reset it. Use text and appropriate icons in buttons;
 
