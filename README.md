@@ -61,3 +61,38 @@ the basic requirements were set on the basis of the assignments.
   + ~~Add data-netlify attributes with value "true" and name to form;~~
 + ~~add buttons to the form to send data and reset it. Use text and appropriate icons in buttons;~~
 
+## 8 lab
++ ~~In index.html and form.html:~~
+  + ~~replace standard selection (:: selection);~~
+  + ~~arrange form fields to match the style of the graphic layout (colors, fonts, sizes);~~
+  + ~~for links and buttons, create styles with pseudo-classes hover, active, focus;~~
+  + ~~styling placeholders in fields;~~
++ ~~In form.html:~~
+  + ~~highlight the shortcut to which the focused field is associated;~~
+  + ~~change the appearance for the text of the selected radio buttons and checkboxes;~~
+  + ~~disable the form reset button and style it accordingly;~~
++ ~~style required fields;~~
++ ~~add another form:~~
+  + ~~at the beginning of the form, add a list of pseudo-element and pseudo-class definitions (tags: dl, dt, dd);~~
+  + ~~for the term (dt) set a drop cap;~~
+  + ~~to define (dd) through a pseudo-element add "🛈" (U + 1F6C8);~~
+  + ~~two list of checkboxes: for pseudo-elements and for pseudo-classes. Mark with the checked attribute those elements and classes that are used in the work.~~
+  + ~~the labels of the marked elements must be crossed out;~~
+  + ~~even elements of a pseudo-element list and odd elements of a pseudo-element list must be styled differently.~~
+
+## 9 lab
++ ~~for elements that have background images add a color (background-color);~~
++ for elements that have styles with the: hover pseudo-class, add a smooth change of properties through a transition;
++ in the layout on the main page (index.html) in any section with cards, add a new additional card. First, the card should display an animated loader, which after some time becomes transparent and then the contents of the card are displayed.
+add the use of shadows on the page with the form;
++ ~~create a third page (demo.html) to which add examples:~~
++ ~~Linear, radial, conical gradients (1 sample each);~~
++ ~~2D transformations (2 examples);~~
++ ~~3D transformations (2 examples);~~
++ ~~Transitions (2 examples).~~
+
+## 10 lab
++ Using the work from the previous lab, make the page responsive to display on screens of different widths from 320px to 2560px. Use at least 2 breakpoints and justify their choice.
++ ~~When decreasing / increasing the width of the screen, the layout is adequately rebuilt, the horizontal scroll bar does not appear~~
++ ~~Check the page behavior through developer tools and create a new device in it.~~
++ ~~Commit the results of the work using the git version control system and send the repository to one of the hosting and update the project on netlify.~~
