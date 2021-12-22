@@ -1,0 +1,49 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card {
+    width: 300px;
+    box-sizing: border-box;
+    padding: 2em;
+    font-family: Ubuntu;
+    border-radius: 25px;
+    color: white;
+    line-height: 25px;
+    box-shadow: 5px 5px 10px #ccc;
+    float: left;
+    margin-right: 1em;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+    margin: 20px 20px;
+}
+  
+.card.purple {
+    background: linear-gradient(150deg, #2880D8, #EE68A4 100%);
+}
+  
+.card.green {
+    background: radial-gradient(#D432D8, #F4A582);
+}
+
+.card.lightpink {
+    background: conic-gradient(#85B0F2, #EDE067);
+}
+.card.twoD{
+    -ms-transform: translate(5px,10px); /* IE 9 */
+    -webkit-transform: translate(5px,10px); /* Safari */
+    transform: translate(5px,10px);
+}
+.card.threeD{
+
+  -webkit-transform: rotate3d(1, .5, 1, -30deg);
+  -ms-transform: rotate3d(1, .5, 1, -30deg);
+  transform: rotate3d(1, .5, 1, -30deg);
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+  
