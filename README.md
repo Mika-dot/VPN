@@ -3,12 +3,12 @@ Lab work on the layout of the vpn site.
 
 the basic requirements were set on the basis of the assignments.
 
-## 2 lab
+- [x] ## 2 lab
 + ~~Human readable code (Google HTML / CSS Style Guide);~~
 + ~~Correct use of tags.~~
 + ~~No errors on the validator;~~
 
-## 3 lab
+- [x] ## 3 lab
 + ~~connect fonts from the layout or visually similar ones from Google Fonts,~~
 + ~~create variables for primary colors,~~
 + ~~set the text size (font-size) and weight (font-weight),~~
@@ -19,27 +19,27 @@ the basic requirements were set on the basis of the assignments.
 + ~~remove underlining from links if required by layout (text-decoration)~~
 + ~~set borders and their rounding (border, border-radius)~~
 
-## 4 lab
+- [x]## 4 lab
 + ~~For all elements, set the calculation using box-sizing: border-box;~~
 + ~~Set dimensions for elements (height, width, max-height, max-width, min-height, min-width);~~
 + ~~Use appropriate positioning (relative, absolute ...);~~
 + ~~Use z-index if necessary.~~
 
-## 5 lab
+- [x] ## 5 lab
 + ~~add display: flex to position flex items according to layout;~~
 + ~~cuse the necessary properties for the container and elements for their alignment, position and size control;~~
 + ~~set colors in different ways;~~
 + ~~use relative units of measurement to size elements;~~
 + ~~set the correct paths for externally used files.~~
 
-## 6 lab
+- [x] ## 6 lab
 + ~~optimize the size and compression of images;~~
 + ~~in index.html and style.css from previous work:~~
   + ~~use correct tags for images (img or figure);~~
   + ~~use suitable image formats (jpg, png, svg);~~
   + ~~use object-fit or object-position if necessary;~~
   
-## 7 lab
+- [x] ## 7 lab
 + ~~in index.html, correctly make links in accordance with the content and create and style forms in accordance with the graphic layout;~~
 + ~~create a new document in the project folder of the previous laboratory work - form.html;~~
 + ~~header index.html must have a working link to form.html;~~
@@ -61,7 +61,7 @@ the basic requirements were set on the basis of the assignments.
   + ~~Add data-netlify attributes with value "true" and name to form;~~
 + ~~add buttons to the form to send data and reset it. Use text and appropriate icons in buttons;~~
 
-## 8 lab
+- [x] ## 8 lab
 + ~~In index.html and form.html:~~
   + ~~replace standard selection (:: selection);~~
   + ~~arrange form fields to match the style of the graphic layout (colors, fonts, sizes);~~
@@ -91,7 +91,7 @@ add the use of shadows on the page with the form;
 + ~~3D transformations (2 examples);~~
 + ~~Transitions (2 examples).~~
 
-## 10 lab
+- [x] ## 10 lab
 + Using the work from the previous lab, make the page responsive to display on screens of different widths from 320px to 2560px. Use at least 2 breakpoints and justify their choice.
 + ~~When decreasing / increasing the width of the screen, the layout is adequately rebuilt, the horizontal scroll bar does not appear~~
 + ~~Check the page behavior through developer tools and create a new device in it.~~
