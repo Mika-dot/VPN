@@ -4,7 +4,7 @@ Lab work on the layout of the vpn site.
 the basic requirements were set on the basis of the assignments.
 
 ---
-- [x] Lab 1 [## 2 lab][id]:
+- [x] Lab 1
 - [x] Lab 2
 - [X] Lab 3
 - [X] Lab 4
