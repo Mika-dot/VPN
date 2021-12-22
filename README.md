@@ -40,24 +40,24 @@ the basic requirements were set on the basis of the assignments.
   + ~~use object-fit or object-position if necessary;~~
   
 ## 7 lab
-+ ~~in index.html, correctly make links in accordance with the content and create and style forms in accordance with the graphic layout;
-+ ~~create a new document in the project folder of the previous laboratory work - form.html;
-+ ~~header index.html must have a working link to form.html;
-+ ~~into the created document, copy the header and footer from the main document (index.html);
-+ ~~header form.html must have a working link to index.html;
-+ ~~footer "squeeze" to the bottom of the viewport;
-+ ~~in the main part of the site (main) create a new user registration form with the following fields:
-  + ~~name,
-  + ~~Date of Birth,
-  + ~~floor,
-  + ~~password,
-  + ~~email,
-  + ~~telephone,
-  + ~~convenient interval for communication (morning, afternoon, evening, night);
-+ ~~use field types corresponding to the input data, add placeholders with data entry patterns and associated labels;
-+ ~~make some of the fields mandatory;
-+ ~~combine form fields into two groups: personal information and contact information;
-+ ~~to submit form data, create it such that it submits data to netlify (https://docs.netlify.com/forms/setup/):
-  + ~~Add data-netlify attributes with value "true" and name to form;
-+ ~~add buttons to the form to send data and reset it. Use text and appropriate icons in buttons;
++ ~~in index.html, correctly make links in accordance with the content and create and style forms in accordance with the graphic layout;~~
++ ~~create a new document in the project folder of the previous laboratory work - form.html;~~
++ ~~header index.html must have a working link to form.html;~~
++ ~~into the created document, copy the header and footer from the main document (index.html);~~
++ ~~header form.html must have a working link to index.html;~~
++ ~~footer "squeeze" to the bottom of the viewport;~~
++ ~~in the main part of the site (main) create a new user registration form with the following fields:~~
+  + ~~name,~~
+  + ~~Date of Birth,~~
+  + ~~floor,~~
+  + ~~password,~~
+  + ~~email,~~
+  + ~~telephone,~~
+  + ~~convenient interval for communication (morning, afternoon, evening, night);~~
++ ~~use field types corresponding to the input data, add placeholders with data entry patterns and associated labels;~~
++ ~~make some of the fields mandatory;~~
++ ~~combine form fields into two groups: personal information and contact information;~~
++ ~~to submit form data, create it such that it submits data to netlify (https://docs.netlify.com/forms/setup/):~~
+  + ~~Add data-netlify attributes with value "true" and name to form;~~
++ ~~add buttons to the form to send data and reset it. Use text and appropriate icons in buttons;~~
 
