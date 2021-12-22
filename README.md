@@ -3,7 +3,8 @@ Lab work on the layout of the vpn site.
 
 the basic requirements were set on the basis of the assignments.
 
-## 2 lab - [x] 
+
+## 2 lab [x]
 + ~~Human readable code (Google HTML / CSS Style Guide);~~
 + ~~Correct use of tags.~~
 + ~~No errors on the validator;~~
