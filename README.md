@@ -110,3 +110,5 @@ add the use of shadows on the page with the form;
 + ~~When decreasing / increasing the width of the screen, the layout is adequately rebuilt, the horizontal scroll bar does not appear~~
 + ~~Check the page behavior through developer tools and create a new device in it.~~
 + ~~Commit the results of the work using the git version control system and send the repository to one of the hosting and update the project on netlify.~~
+
+## 11 lab
