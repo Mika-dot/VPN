@@ -502,3 +502,69 @@
     width: 200%;
   }
 }
+
+@keyframes boxanim
+{
+    0%
+    {
+        transform: rotate(0);
+        opacity: 1;
+    }
+
+   90%
+   {
+    opacity: 1;
+   }
+
+    100%
+    {
+        transform: rotate(720deg);
+        opacity: 0;
+    }
+
+
+}
+
+@keyframes boxanim1
+{
+    0%
+    {
+        opacity: 0;
+
+    }
+    95%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+
+    }
+}
+
+.anim
+{
+    opacity: 0;
+    transform-origin:center;
+    animation-name: boxanim1;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+}
+
+.loader
+{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    opacity: 1;
+   transform-origin:center;
+    animation-name: boxanim;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+}
+
+
