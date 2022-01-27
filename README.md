@@ -96,9 +96,9 @@ the basic requirements were set on the basis of the assignments.
 
 ## 9 lab
 + ~~for elements that have background images add a color (background-color);~~
-+ for elements that have styles with the: hover pseudo-class, add a smooth change of properties through a transition;
-+ in the layout on the main page (index.html) in any section with cards, add a new additional card. First, the card should display an animated loader, which after some time becomes transparent and then the contents of the card are displayed.
-add the use of shadows on the page with the form;
++ ~~for elements that have styles with the: hover pseudo-class, add a smooth change of properties through a transition;~~
++ ~~in the layout on the main page (index.html) in any section with cards, add a new additional card. First, the card should display an animated loader, which after some time becomes transparent and then the contents of the card are displayed.
+add the use of shadows on the page with the form;~~
 + ~~create a third page (demo.html) to which add examples:~~
 + ~~Linear, radial, conical gradients (1 sample each);~~
 + ~~2D transformations (2 examples);~~
@@ -106,7 +106,7 @@ add the use of shadows on the page with the form;
 + ~~Transitions (2 examples).~~
 
 ## 10 lab
-+ Using the work from the previous lab, make the page responsive to display on screens of different widths from 320px to 2560px. Use at least 2 breakpoints and justify their choice.
++ ~~Using the work from the previous lab, make the page responsive to display on screens of different widths from 320px to 2560px. Use at least 2 breakpoints and justify their choice.~~
 + ~~When decreasing / increasing the width of the screen, the layout is adequately rebuilt, the horizontal scroll bar does not appear~~
 + ~~Check the page behavior through developer tools and create a new device in it.~~
 + ~~Commit the results of the work using the git version control system and send the repository to one of the hosting and update the project on netlify.~~
