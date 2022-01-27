@@ -12,7 +12,7 @@ the basic requirements were set on the basis of the assignments.
 - [X] Lab 6
 - [X] Lab 7
 - [X] Lab 8
-- [ ] Lab 9
+- [X] Lab 9
 - [X] Lab 10
 - [ ] Lab 11
 ---
@@ -112,3 +112,15 @@ add the use of shadows on the page with the form;~~
 + ~~Commit the results of the work using the git version control system and send the repository to one of the hosting and update the project on netlify.~~
 
 ## 11 lab
++ connection of ccs and js files necessary for work,
++ checkpoints and insufixes,
++ building a grid (grid) Bootstrap:
+  + container, col, row, gutters
++ typography:
+  + headings, text styling
++ work with images
++ creating and using form elements,
++ creating and using components,
++ hiding elements .visually-hidden,
++ margin, padding control
++ control the display and behavior of .d-... elements
