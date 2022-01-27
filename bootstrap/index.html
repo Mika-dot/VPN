@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Thingiverse - Digital Designs for Physical Objects</title>
+
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <link href="stile/headers.css" rel="stylesheet">
+    <link href="stile/footers.css" rel="stylesheet">
+
+  </head>
+  <body>
+    
+    <div class="container">
+      <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+  
+        <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+          <img class="bi me-2" src="img/title.svg">
+        </a>
+  
+        <form class="w-40">
+          <input type="search" class="form-control" placeholder="Search Thingiverse" aria-label="Search">
+        </form>
+  
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Explore</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Create</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Sign Up</a></li>
+        </ul>
+  
+      </header>
+    </div>
+
+<main>
+  <div class="container">
+    <div class="d-flex justify-content-center py-3">
+      <ul class="nav nav-pills">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Popular Last 30 Days</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown01">
+            <li><a class="dropdown-item" href="#">Popular Last 7 Days</a></li>
+            <li><a class="dropdown-item" href="#">Popular Last 30 Days</a></li>
+            <li><a class="dropdown-item" href="#">Popular This Year</a></li>
+            <li><a class="dropdown-item" href="#">Popular All Time</a></li>
+            <li><a class="dropdown-item" href="#">Newest</a></li>
+            <li><a class="dropdown-item" href="#">Most Makes</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">All Things</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown01">
+            <li><a class="dropdown-item" href="#">All Things</a></li>
+            <li><a class="dropdown-item" href="#">3D Printing</a></li>
+            <li><a class="dropdown-item" href="#">Art</a></li>
+            <li><a class="dropdown-item" href="#">Fashion</a></li>
+            <li><a class="dropdown-item" href="#">Gadgets</a></li>
+            <li><a class="dropdown-item" href="#">Hobby</a></li>
+            <li><a class="dropdown-item" href="#">Household</a></li>
+            <li><a class="dropdown-item" href="#">Learning</a></li>
+            <li><a class="dropdown-item" href="#">Models</a></li>
+            <li><a class="dropdown-item" href="#">Tools</a></li>
+            <li><a class="dropdown-item" href="#">Toys & Games</a></li>
+            <li><a class="dropdown-item" href="#">Other</a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Filter By</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown01">
+            <li>
+              <div class="dropdown-item">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                      Things
+                  </label>
+              </div>
+          </li>
+          <li>
+              <div class="dropdown-item">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                      Users
+                  </label>
+              </div>
+          </li>
+          <li>
+            <div class="dropdown-item">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  makes
+                </label>
+            </div>
+          </li>
+          <li>
+              <div class="dropdown-item">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    collections
+                  </label>
+              </div>
+          </li>
+          <li>
+              <div class="dropdown-item">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                  <label class="form-check-label" for="flexRadioDefault3">
+                      Groups
+                  </label>
+              </div>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li>
+              <div class="dropdown-item">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                      Customizable
+                  </label>
+              </div>
+          </li>
+          <li>
+              <div class="dropdown-item">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                  <label class="form-check-label" for="defaultCheck2">
+                      Show Customized Creations
+                  </label>
+              </div>
+          </li>
+          <li>
+              <div class="dropdown-item">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                  <label class="form-check-label" for="defaultCheck3">
+                      Order a Print
+                  </label>
+              </div>
+          </li>
+          <li>
+              <div class="dropdown-item">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                  <label class="form-check-label" for="defaultCheck3">
+                      Has Makes
+                  </label>
+              </div>
+          </li>
+          <li>
+              <div class="dropdown-item">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                  <label class="form-check-label" for="defaultCheck4">
+                      Featured
+                  </label>
+              </div>
+          </li>
+          <li>
+              <div class="dropdown-item">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                  <label class="form-check-label" for="defaultCheck4">
+                      Challenge Winner
+                  </label>
+              </div>
+          </li>
+          <li>
+            <div class="dropdown-item">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                <label class="form-check-label" for="defaultCheck4">
+                  Things I've Liked
+                </label>
+            </div>
+        </li>
+        <li>
+          <div class="dropdown-item">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+              <label class="form-check-label" for="defaultCheck4">
+                Things I've Collected
+              </label>
+          </div>
+      </li>
+      <li>
+        <div class="dropdown-item">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+            <label class="form-check-label" for="defaultCheck4">
+              Things I've Made
+            </label>
+        </div>
+    </li>
+    <li>
+      <div class="dropdown-item">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+          <label class="form-check-label" for="defaultCheck4">
+            Is a Remix
+          </label>
+      </div>
+  </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/card_preview.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
+
+            <div class="card-body">
+              <p class="card-text">I've tested many filament clips, but none was the perfect one.</p>
+              <p class="card-text">So i designed this little clip. About 6 minutes to print, 1g of Filament and this shovel to get easily under tightly wound filament.</p>
+              <p class="card-text">The filament is held firmly in the clip as it snaps into place.</p>
+              <p class="card-text">According to one comment, by scaling to 160% the clip should also work with 2.85mm filament.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">1 second</small>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">next</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">back</button>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/card_preview.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
+
+            <div class="card-body">
+              <p class="card-text">I've tested many filament clips, but none was the perfect one.</p>
+              <p class="card-text">So i designed this little clip. About 6 minutes to print, 1g of Filament and this shovel to get easily under tightly wound filament.</p>
+              <p class="card-text">The filament is held firmly in the clip as it snaps into place.</p>
+              <p class="card-text">According to one comment, by scaling to 160% the clip should also work with 2.85mm filament.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">1 second</small>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">next</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">back</button>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/card_preview.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
+
+            <div class="card-body">
+              <p class="card-text">I've tested many filament clips, but none was the perfect one.</p>
+              <p class="card-text">So i designed this little clip. About 6 minutes to print, 1g of Filament and this shovel to get easily under tightly wound filament.</p>
+              <p class="card-text">The filament is held firmly in the clip as it snaps into place.</p>
+              <p class="card-text">According to one comment, by scaling to 160% the clip should also work with 2.85mm filament.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">1 second</small>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">next</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">back</button>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/card_preview.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
+
+            <div class="card-body">
+              <p class="card-text">I've tested many filament clips, but none was the perfect one.</p>
+              <p class="card-text">So i designed this little clip. About 6 minutes to print, 1g of Filament and this shovel to get easily under tightly wound filament.</p>
+              <p class="card-text">The filament is held firmly in the clip as it snaps into place.</p>
+              <p class="card-text">According to one comment, by scaling to 160% the clip should also work with 2.85mm filament.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">1 second</small>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">next</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">back</button>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/card_preview.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
+
+            <div class="card-body">
+              <p class="card-text">I've tested many filament clips, but none was the perfect one.</p>
+              <p class="card-text">So i designed this little clip. About 6 minutes to print, 1g of Filament and this shovel to get easily under tightly wound filament.</p>
+              <p class="card-text">The filament is held firmly in the clip as it snaps into place.</p>
+              <p class="card-text">According to one comment, by scaling to 160% the clip should also work with 2.85mm filament.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">1 second</small>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">next</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">back</button>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/card_preview.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
+
+            <div class="card-body">
+              <p class="card-text">I've tested many filament clips, but none was the perfect one.</p>
+              <p class="card-text">So i designed this little clip. About 6 minutes to print, 1g of Filament and this shovel to get easily under tightly wound filament.</p>
+              <p class="card-text">The filament is held firmly in the clip as it snaps into place.</p>
+              <p class="card-text">According to one comment, by scaling to 160% the clip should also work with 2.85mm filament.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">1 second</small>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">next</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">back</button>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/card_preview.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
+
+            <div class="card-body">
+              <p class="card-text">I've tested many filament clips, but none was the perfect one.</p>
+              <p class="card-text">So i designed this little clip. About 6 minutes to print, 1g of Filament and this shovel to get easily under tightly wound filament.</p>
+              <p class="card-text">The filament is held firmly in the clip as it snaps into place.</p>
+              <p class="card-text">According to one comment, by scaling to 160% the clip should also work with 2.85mm filament.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">1 second</small>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">next</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">back</button>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/card_preview.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
+
+            <div class="card-body">
+              <p class="card-text">I've tested many filament clips, but none was the perfect one.</p>
+              <p class="card-text">So i designed this little clip. About 6 minutes to print, 1g of Filament and this shovel to get easily under tightly wound filament.</p>
+              <p class="card-text">The filament is held firmly in the clip as it snaps into place.</p>
+              <p class="card-text">According to one comment, by scaling to 160% the clip should also work with 2.85mm filament.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">1 second</small>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">next</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">back</button>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/card_preview.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
+
+            <div class="card-body">
+              <p class="card-text">I've tested many filament clips, but none was the perfect one.</p>
+              <p class="card-text">So i designed this little clip. About 6 minutes to print, 1g of Filament and this shovel to get easily under tightly wound filament.</p>
+              <p class="card-text">The filament is held firmly in the clip as it snaps into place.</p>
+              <p class="card-text">According to one comment, by scaling to 160% the clip should also work with 2.85mm filament.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">1 second</small>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">next</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">back</button>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/card_preview.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
+
+            <div class="card-body">
+              <p class="card-text">I've tested many filament clips, but none was the perfect one.</p>
+              <p class="card-text">So i designed this little clip. About 6 minutes to print, 1g of Filament and this shovel to get easily under tightly wound filament.</p>
+              <p class="card-text">The filament is held firmly in the clip as it snaps into place.</p>
+              <p class="card-text">According to one comment, by scaling to 160% the clip should also work with 2.85mm filament.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">1 second</small>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">next</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">back</button>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+ 
+  <nav aria-label="Page navigation example ms-3">
+    <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  </nav>
+
+</main>
+
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <span class="text-muted">&copy; 2021 thingiverse</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><img src="img/twitter.svg" class="bi" width="24" height="24"></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><img src="img/instagram.svg" class="bi" width="24" height="24"></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><img src="img/facebook.svg" class="bi" width="24" height="24"></a></li>
+    </ul>
+  </footer>
+</div>
+
+
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
